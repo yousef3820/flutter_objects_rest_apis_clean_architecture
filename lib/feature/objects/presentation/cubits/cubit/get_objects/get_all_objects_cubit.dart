@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter_objects_rest_apis/core/service_locator.dart';
-import 'package:flutter_objects_rest_apis/feature/objects/domain/entities/object_entity.dart';
+import 'package:flutter_objects_rest_apis/feature/objects/data/models/objects_model.dart';
 import 'package:flutter_objects_rest_apis/feature/objects/domain/usecases/get_all_objects_usecase.dart';
 import 'package:meta/meta.dart';
 

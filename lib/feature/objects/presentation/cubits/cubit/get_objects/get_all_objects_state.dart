@@ -6,7 +6,7 @@ sealed class GetAllObjectsState {}
 final class GetAllObjectsInitial extends GetAllObjectsState {}
 final class GetAllObjectsLoading extends GetAllObjectsState {}
 final class GetAllObjectsSuccess extends GetAllObjectsState {
-  final List<ObjectEntity> objects;
+  final List<ObjectModel> objects;
 
   GetAllObjectsSuccess({required this.objects});
 }
